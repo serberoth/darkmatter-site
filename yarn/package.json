@@ -1,0 +1,12 @@
+{
+    "name": "darkmatter",
+    "version": "1.0.0",
+    "description": "DarkMatter Software",
+    "scripts": {
+        "clean": "rm -rm ./dist",
+        "start": "yarn node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
