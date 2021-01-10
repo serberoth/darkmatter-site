@@ -65,6 +65,11 @@ footer.bg-footer {
     padding: 36px 0px;
 }
 
+.main-content h1 {
+    padding-left: 4rem;
+    color: #5e7fe6 !important;
+}
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
