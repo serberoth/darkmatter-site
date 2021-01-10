@@ -40,24 +40,33 @@
         <link href="index.css" rel="stylesheet" >
     </head>
 
-    <body class="d-flex h-100 text-center text-white bg-dark">
+    <body>
+        <!-- Header Section -------------------- -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-nav" aria-label="darkmatter-navbar" >
+                <div class="container" >
+                  <a class="navbar-brand navbar-name" href="#">DarkMatter Software</a>
 
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <!-- Header Section -------------------- -->
-            <header class="mb-auto">
-                <div>
-                    <h3 class="float-md-start mb-0">DarkMatter Software</h3>
-                    <nav class="nav nav-masthead justify-content-center float-md-end">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link active" aria-current="page" href="products.html">Products</a>
-                        <a class="nav-link" href="mailto:admin@darkmattersoftware.com">Contact</a>
-                    </nav>
+                  <div class="collapse navbar-collapse" id="navbar" >
+                    <ul class="nav nav-masthead navbar-nav me-auto mb-2 mb-lg-0" >
+                      <li class="nav-item" >
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item" >
+                        <a class="nav-link" href="products.html">Products</a>
+                      </li>
+                      <li class="nav-item" >
+                        <a class="nav-link" href="mailto:admin@darkmattersoftware.com" tabindex="-1" aria-disabled="true">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-            </header>
+              </nav>
+        </header>
 
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" >
             <!-- Content Section -------------------- -->
             <main class="px-3 main-content">
-
                 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
                     <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                         <a href="https://meteostormgame.com" >
@@ -74,13 +83,35 @@
                 </div>
                  -->
 
+                 <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <img src="images/products/osx_title_screen.png" width="426" height="320" alt="MeteoStorm" />
+                    </div>
+                </div>
+                <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <img src="images/products/osx_title_screen.png" width="426" height="320" alt="MeteoStorm" />
+                    </div>
+                </div>
+                <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                    <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                        <img src="images/products/osx_title_screen.png" width="426" height="320" alt="MeteoStorm" />
+                    </div>
+                </div>
             </main>
-
-            <!-- Footer Section -------------------- -->
-            <footer class="mt-auto text-white-50">
-                <p>&copy; 2011-2020 DarkMatter Software.  All rights reserved.</p>
-            </footer>
         </div>
+
+        <!-- Footer Section -------------------- -->
+        <footer class="text-center bg-footer" >
+            <nav class="container" >
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>&copy; 2011-2020 DarkMatter Software.</p>
+                <p>
+                    <a href="https://www.google.com/get/noto/" >Google Noto&trade; Fonts</a>
+                    &copy; SIL Open Font License, Version 1.1
+                </p>
+            </nav>
+        </footer>
 
         <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
