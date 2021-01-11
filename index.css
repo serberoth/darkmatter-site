@@ -47,9 +47,15 @@ a.navbar-name {
 
 div.bg-promo {
     /* background-color: rgba(94, 127, 230, 0.75); */
-    border-bottom: 3px groove white;
-    padding: 40px 0;
+    padding: 20px 0;
     margin-top: 20px;
+}
+
+div.product-break { 
+    margin: 25px 0;
+    height: 1px;
+    background: #5e7fe6;
+    background: linear-gradient(.25turn, transparent, #587fe6, transparent);
 }
 
 footer.bg-footer {
